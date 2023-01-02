@@ -6,7 +6,7 @@ using namespace std;
 int main()
 
 {
-    setlocale(LC_ALL,"Rus")
+    SetConsoleOutputCP(1251);
     //Тестирование класса комплексных чисел
     Complex A, B(-4), C(23.0, 45.9);
     cout << A << "," << B << "," << C << endl;
