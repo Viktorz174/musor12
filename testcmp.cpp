@@ -1,13 +1,12 @@
 #include <iostream>
 #include "mycomplex.h"
-#include <windows.h>
+
 using namespace std;
 
 int main()
 
 {
-    SetConsoleOutputCP(1251);
-    //Тестирование класса комплексных чисел
+    //РўРµСЃС‚РёСЂРѕРІР°РЅРёРµ РєР»Р°СЃСЃР° РєРѕРјРїР»РµРєСЃРЅС‹С… С‡РёСЃРµР»
     Complex A, B(-4), C(23.0, 45.9);
     cout << A << "," << B << "," << C << endl;
     A = B + C;
